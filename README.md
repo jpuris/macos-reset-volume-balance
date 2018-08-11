@@ -2,6 +2,8 @@
 
 *Resets MacOS volume balance automatically to middle, when it wakes up.*
 
+The balance changes on its own since 10.2 MacOS, it is rare, but I am one of the users hit by this bug and hence here is a solution.
+
 Before and after
 
 ![befor.png](before.png "Before")
@@ -27,3 +29,6 @@ How to install sleepwatcher
 # Uninstall
 - Removal of sleepwatcher `brew services start sleepwatcher && brew uninstall sleepwatcher`
 - Removal of wakeup script `rm ~/.wakeup`
+
+# Compatibility
+Tested on 10.14 (Mojave Beta 5) 
