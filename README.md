@@ -2,8 +2,10 @@
 
 *Resets MacOS volume balance automatically to middle, when it wakes up.*
 
-Before: ![befor.png](before.png "Before")
-After: ![after.png](after.png "After")
+Before and after
+
+![befor.png](before.png "Before")
+![after.png](after.png "After")
 
 It is a simple shell one line command that is run when OS wakes up with help of sleepwatcher daemon.
 
