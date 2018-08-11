@@ -1,6 +1,10 @@
 # reset-volume-balance-on-wake
 
-Resets MacOS volume balance to middle, when it wakes up.
+*Resets MacOS volume balance automatically to middle, when it wakes up.*
+
+Before: ![befor.png](before.png "Before")
+After: ![after.png](after.png "After")
+
 It is a simple shell one line command that is run when OS wakes up with help of sleepwatcher daemon.
 
 ## Installation
@@ -8,7 +12,7 @@ It is a simple shell one line command that is run when OS wakes up with help of 
 By default sleepwatcher will look for `~/.wakeup` file which is run on OS wake up, and `~/.sleep` file, to be run, when OS goes to sleep. For more information run `sleepwatcher`, when it is installed (See Requirements).
 
 To install the needed `~/.wakeup` script, all you need to do is to run following commands.
-`TODO`
+`curl https://gitlab.com/janis.puris/reset-volume-balance-on-wake/raw/master/wakeup -o ~/.wakeup`
 
 ## Requirements
 - sleepwatcher
